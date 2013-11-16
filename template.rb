@@ -31,8 +31,9 @@ gem_group :test do
   # Capybara for integration testing (https://github.com/jnicklas/capybara)
   gem "capybara" 
   gem "capybara-webkit"
-  # FactoryGirl instead of Rails fixtures (https://github.com/thoughtbot/factory_girl)
-  gem "factory_girl_rails"
+  # Fabrication instead of Rails fixtures (http://fabricationgem.org)
+  gem "fabrication"
+  gem 'faker' # Fake data generator
 end
 
 gem_group :production do
